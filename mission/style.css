@@ -17,6 +17,10 @@ h1 {
     font-size: 50px;
 }
 
+h#sub {
+    color: rgb(0, 110, 182);
+}
+
 #statement {
     text-align: left;
 }
