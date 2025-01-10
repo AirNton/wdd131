@@ -31,7 +31,6 @@ li {
     padding-left: 10px;
 }
 
-footer {
-    display: block;
-    unicode-bidi: isolate;
+img {
+    max-width: 150px;
 }
