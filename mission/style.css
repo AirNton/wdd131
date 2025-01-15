@@ -1,3 +1,5 @@
+
+
 #content {
     text-align: center;
     font-size: 20px;
@@ -9,6 +11,21 @@
     padding: 20px;
     border-style: solid;
     border-color: black;
+    
+}
+
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: ;
+    color: white;
+}
+
+.dark h2 {
+    color: rgb(4 93 255);
 }
 
 h1 {
@@ -19,6 +36,9 @@ h1 {
 
 #sub {
     color: rgb(0, 110, 182);
+    border-bottom: solid;
+    border-color: goldenrod;
+
 }
 
 #statement {

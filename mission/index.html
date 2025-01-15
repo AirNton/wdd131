@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mission Statement</title>
     <link rel="stylesheet" href="style.css">
+    <script src="mission.js" defer></script>
 </head>
-<body>
+<body class="light">
     <div id="content">
         <h1>
             Mission Statement
@@ -43,9 +44,17 @@
                 </li>
             </ol>
             <footer>
-                <img src="byui-logo_blue.webp" alt="BYUI LOGO">
+                <img id="logo" src="byui-logo_blue.webp" alt="BYUI LOGO">
             </footer>
         </main>
+
+        <label for="theme-switch">Choose a theme</label>
+
+        <select name="theme-switch" id="theme-switch">
+            <option value="light">Light mode</option>
+            <option value="dark">Dark mode</option>
+        </select>
+   
     </div>
 <!-- Code injected by live-server -->
 <script>
