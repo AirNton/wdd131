@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+.skiptocontent a {
+	position: absolute;
+    top: -40px;
+	left: 0px;
+	background-color: blue;
+}
+.skiptocontent a:focus {
+	top: 0px;
+}
+
+
 header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
@@ -35,7 +46,7 @@ main{
 
 ul.no-bullets {
     list-style-type: none; 
-    padding: 5px; 
+    padding: 10px; 
     margin: 0; 
     text-align: right;
 
@@ -44,7 +55,7 @@ ul.no-bullets {
 #left {
     grid-column: 1/2;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 200px auto;
     grid-auto-rows: minmax(200px, auto);
     
 }
@@ -63,6 +74,7 @@ img {
 
 .right {
     grid-column: 2/3;
+    grid-row: 1/4;
     border: solid #AF1B3F;
     text-align: center;
 }
