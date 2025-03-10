@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #1B98E0;
+    --secondary-color: #59c3c3;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica,sans-serif;
+    --secondary-font: "Amatic SC";
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+body {
+    font-family: var(--secondary-font);
+}
+
+form {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin: 15px;
+}
+
+#mag {
+    width: 25px;
+
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: solid 5px var(--text-dark);
+    margin: 15px;
+    padding: 10px;
+
+
+}
+
+article img {
+    width: 50%;
+    height: 50%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+
+#recipe_details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+#tags {
+    width: fit-content;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    border: solid 1px var(--text-dark);
+}
+
+h2 {
+    font-size: 3rem;
+    margin-left: 50px;
+    color: var(--secondary-color);
+}
+
+.rating {
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+footer a img{
+
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid 5px var(--text-dark);
+
+    }
+    
+    article img {
+        width: 80%;
+        margin: auto;
+        padding-top: 12px;
+        padding-bottom: 10px;
+        
+    }
+
+    #tags {
+        width: fit-content;
+        margin-left: 50px;
+        font-size: 1.5rem;
+        border: solid 1px var(--text-dark);
+        justify-content: ;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-left: 50px;
+        color: var(--secondary-color);
+    }
+
+    .rating {
+        margin-left: 50px;
+        margin-top: -20px;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    .social {
+        width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+    }
+
+    .source {
+        justify-content: center;
+        font-size: 2rem;
+    }
+}
