@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personal.css">
+    <script src="personal.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="skiptocontent">
+        <a href="#maincontent">skip to main content</a>
+    </div>
+    <header>
+        <img src="images/logo-png.png" id="logo" alt="BYUI Bathrooms logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rate.html" class="hidden">Share</a>
+        </nav>
+    </header>
+    <main>
+        <div id="filterBar">
+            <label for="buildingFilter">Filter by building:</label>
+            <select id="buildingFilter">
+              <option value="all">All</option>
+              <option value="Snow">Snow</option>
+              <option value="Hart">Hart</option>
+              <option value="I Center">I Center</option>
+              <!-- Add more as needed -->
+            </select>
+          </div>
+        <div id="stuff">
+            <div id="maincontent">
+
+            </div>
+            <div class="right sticky hide">
+                <h3>Share your Experinces!</h3>
+                <p>Was there a bathroom so dirty you just have to let us know? or so clean that you need to sing it's praises? Fill out the boxes bellow! Please note I have not programmed this to do anthing yet so all of your valueable feedback is useless</p>
+                <form action="#" method="post">
+                    <label for="location">Location:</label><br>
+                    <input type="text" id="location" name="location" required><br><br>
+
+                    <label for="rating">Rating (1-5):</label><br>
+                    <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+                    <label for="comment">Comment:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+
+                    <input type="button" value="Submit">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/logo-png.png" id="logo" alt="BYUI Bathrooms logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rate.html" class="hidden">Share</a>
+
+        </nav>
+    </footer>
+</body>
+</html>
